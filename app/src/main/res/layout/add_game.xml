@@ -15,12 +15,11 @@
         android:id="@+id/textViewPlayerOne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:text="@string/textViewPlayerOne" />
+        android:text="@string/textViewPlayerOne" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dip"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -32,14 +31,17 @@
             <Spinner
                 android:id="@+id/spinnerPlayerOne"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown" />
 
             <Spinner
                 android:id="@+id/spinnerFactionOne"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/factions" />
 
         </LinearLayout>
 
@@ -57,12 +59,11 @@
         android:id="@+id/textViewPlayerTwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:text="@string/textViewPlayerTwo" />
+        android:text="@string/textViewPlayerTwo" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dip"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -74,14 +75,17 @@
             <Spinner
                 android:id="@+id/spinnerPlayerTwo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown" />
 
             <Spinner
                 android:id="@+id/spinnerFactionTwo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/factions" />
 
         </LinearLayout>
 

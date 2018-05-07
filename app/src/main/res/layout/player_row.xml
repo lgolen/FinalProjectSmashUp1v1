@@ -8,12 +8,18 @@
         android:id="@+id/textViewPlayerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewFiller"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1" />
 
     <Button
         android:id="@+id/buttonDeletePlayer"
-        android:layout_width="wrap_content"
+        android:layout_width="80dip"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="@string/buttonDeletePlayer" />
 </LinearLayout>
