@@ -16,7 +16,9 @@ import android.widget.Spinner;
 
 import java.util.List;
 
-
+/*
+ * This class manages the main activity
+ */
 public class MainActivity extends AppCompatActivity {
     private GameDatasource datasource;
     private ListView lv;
@@ -33,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent addGameIntent = new Intent(view.getContext(), AddGameActivity.class);
-                finish();
                 startActivity(addGameIntent);
             }
         });
@@ -64,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_manage_players) {
             Intent managePlayersIntent = new Intent(this, ManagePlayerActivity.class);
-            finish();
             startActivity(managePlayersIntent);
             return true;
         }

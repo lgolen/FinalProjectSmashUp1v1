@@ -17,9 +17,4 @@
         android:layout_height="wrap_content"
         android:layout_weight="1" />
 
-    <Button
-        android:id="@+id/buttonDeletePlayer"
-        android:layout_width="80dip"
-        android:layout_height="wrap_content"
-        android:text="@string/buttonDeletePlayer" />
 </LinearLayout>

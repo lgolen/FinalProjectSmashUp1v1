@@ -19,7 +19,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dip"
+        android:layout_height="150dip"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -36,7 +36,15 @@
                 android:background="@android:drawable/btn_dropdown" />
 
             <Spinner
-                android:id="@+id/spinnerFactionOne"
+                android:id="@+id/spinnerFactionOne1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/factions" />
+
+            <Spinner
+                android:id="@+id/spinnerFactionOne2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -63,7 +71,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dip"
+        android:layout_height="150dip"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -80,7 +88,15 @@
                 android:background="@android:drawable/btn_dropdown" />
 
             <Spinner
-                android:id="@+id/spinnerFactionTwo"
+                android:id="@+id/spinnerFactionTwo1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:entries="@array/factions" />
+
+            <Spinner
+                android:id="@+id/spinnerFactionTwo2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
